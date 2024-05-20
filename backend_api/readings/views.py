@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .Books import Book
+from .models import Book
 from .serializers import BookSerializer
   
 
